@@ -1,0 +1,11 @@
+{
+  "name": "premier_programme-nodejs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

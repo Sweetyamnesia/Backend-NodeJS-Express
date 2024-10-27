@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MY SUPER TO DO LIST</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+    </head>
+
+    <body>
+        <h1 class="title is-1 has-text-centered">MY SUPER TO DO LIST</h1>
+        <form class="box" action="/formulaire" method="post">
+            <div class="field">
+              <label class="label">TO DO :</label>
+              <div class="control">
+                <input class="input" type="text" name="champ" placeholder="Tâche à faire" />
+              </div>
+            </div>
+          
+            <div class="form-example">
+                <input type="submit" value="Enregistrer" />
+            </div>
+        </form>
+
+            <ul>
+                <% tasks.forEach((task, index) => { %>
+                    
+                    <li class="box" name="champ"> 
+                            <%= task %> 
+                            <form action="/modify/<%=index%>" method="post">
+                                <input name="champ1" type="text" value="<%= task %>"/>
+                                <button id="modified" type="submit" class="button is-warning is-dark is-small">Modifier</button>
+                            </form>
+                            
+                            <form action="/delete/>" method="post">
+                                <input type="hidden" name="champ" value="<%= index %>"/>
+                                <button type="submit" class="button is-danger is-dark is-small">Supprimer</button>
+                            </form>
+                    </li> 
+                <% }) %>
+            </ul>
+    </body>
+</html>
