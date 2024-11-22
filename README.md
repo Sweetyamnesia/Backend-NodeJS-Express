@@ -22,102 +22,51 @@ Ils permettent également de comprendre les outils essentiels comme **npm** et *
 
 ### 1. Installation de Node.js
 - **Objectif** : Installer Node.js sur la machine et vérifier son bon fonctionnement.
-- **Vérification** : Commande utilisée dans le terminal : node -v (afficher la version de Node.js).
 
 ### 2. Mon Premier Programme Node.js
 - **Objectif** : Écrire et exécuter un programme simple en Node.js.
-- **Exemple de code** : 
-console.log('Bienvenue dans le monde de Node.js!');
 
 ### 3. Mon Premier Serveur Node.js
 - **Objectif** : Créer un serveur HTTP de base avec Node.js.
 
-**Exemple de code** :
-
 ### 4. Npm et Premeier Serveur Express
 - **Objectif** : Installer **Express.js** via npm et créer un serveur avec ce framework.
 
-**Exemple de code** : 
-
-
 ### 5. Méthode GET et Query Parameters
 - **Objectif** : Récupérer des données envoyées via une requête GET grâce aux query parameters.
-- **Exemple** :
-  - URL : http://localhost:3000/?name=Alice&age=30
-  - Code : 
 
 ### 6. Manipuler les Params
 - **Objectif** : Utiliser des paramètres dynamiques dans les routes.
-- **Exemple** : 
-  - URL : 
-  - Code :
 
 ### 7. Méthode POST et Utilisation de POSTMAN
-- **Objectif : Comprendre la méthode POST en envoyant les données avec Postman.
-- **Exemple** : 
-  - Route : 
-  
-  - Utilisation de **Postman** pour envoyer des données au serveur et vérifier la réponse.
+- **Objectif** : Comprendre la méthode POST en envoyant les données avec Postman.
 
 ### 8. Découverte de EJS
 - **Objectif** : Installer et configurer **EJS** pour afficher des templates dynamiques.
-- **Exemple de code** : 
-  - Backend : 
-
-  - Template EJS (index.ejs) : 
-
 
 ### 9. Affichage Dynamique avec EJS
 - **Objectif** : Générer une liste dynamique à partir des données backend.
-- **Exemple** : 
-  - Backend : 
-
-  - Template EJS : 
-
 
 ### 10. Requête POST depuis un Formulaire
 - **Objectif** : Créer un formulaire HTML qui envoie des données au serveur via une requête POST.
-- **Exemple** : 
-  - Formulaire HTML : 
 
-  - Backend : 
+## Projet TO-DO List
+Ce projet consiste à créer une application de gestion de tâches (TO-DO List) avec Express.js, permettant d'ajouter, afficher, modifier et supprimer des éléments. Ce projet inclut l'utilisation de templates dynamiques avec EJS et de méthodes HTTP (GET, POST, DELETE, PUT).
 
+### Étapes réalisées : 
+1. **Créer le serveur** : Mettre en place un serveur Express.js pour gérer les requêtes.
+2. **Ajouter un élément** : Implémenter une route pour ajouter une tâche.
+3. **Afficher un élément** : Afficher une tâche à partir des données du backend.
+4. **Afficher plusieurs éléments** : Afficher toutes les tâches dans une liste.
+5. **Créer un bouton "Supprimer"** : Ajouter un bouton pour supprimer une tâche.
+6. **Supprimer un élément** : Mettre en place une route pour la suppression d’une tâche.
+7. **Modifier un élément** : Implémenter la fonctionnalité pour éditer une tâche existante.
 
+### Fonctionnalités principales :
+- Ajouter une tâche via un formulaire.
+- Afficher toutes les tâches existantes.
+- Supprimer une tâche grâce à un bouton dédié.
+- Modifier une tâche directement depuis l’interface utilisateur.
 
 ## Démo : 
-1. Un exemple de réponse depuis Postman pour une requête POST
 
-
-2. Une capture de l'affichage dynamique générée avec EJS
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
