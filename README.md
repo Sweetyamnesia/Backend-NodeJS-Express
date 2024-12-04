@@ -29,7 +29,7 @@ Ils permettent également de comprendre les outils essentiels comme **npm** et *
 ### 3. Mon Premier Serveur Node.js
 - **Objectif** : Créer un serveur HTTP de base avec Node.js.
 
-### 4. Npm et Premeier Serveur Express
+### 4. Npm et Premier Serveur Express
 - **Objectif** : Installer **Express.js** via npm et créer un serveur avec ce framework.
 
 ### 5. Méthode GET et Query Parameters
@@ -47,8 +47,13 @@ Ils permettent également de comprendre les outils essentiels comme **npm** et *
 ### 9. Affichage Dynamique avec EJS
 - **Objectif** : Générer une liste dynamique à partir des données backend.
 
+![Affichage dynamique EJS](https://github.com/Sweetyamnesia/Backend-NodeJS-Express/blob/main/Challenge-Affichage_dynamique_EJS/Challenge-affichage-dynamique.jpg?raw=true)
+
 ### 10. Requête POST depuis un Formulaire
 - **Objectif** : Créer un formulaire HTML qui envoie des données au serveur via une requête POST.
+
+![Formulaire-methode-Post](https://github.com/Sweetyamnesia/Backend-NodeJS-Express/blob/main/Formulaire-methode-Post/Formulaire-method-post-ezgif.com-video-to-gif-converter.gif?raw=true)
+
 
 ## Projet TO-DO List
 Ce projet consiste à créer une application de gestion de tâches (TO-DO List) avec Express.js, permettant d'ajouter, afficher, modifier et supprimer des éléments. Ce projet inclut l'utilisation de templates dynamiques avec EJS et de méthodes HTTP (GET, POST, DELETE, PUT).
